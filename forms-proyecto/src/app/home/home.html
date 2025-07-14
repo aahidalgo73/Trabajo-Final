@@ -18,13 +18,16 @@
 </form>
 
 
-<div *ngIf="users.length > 0">
-  <h2>Listado de Usuarios</h2>
-  <ul>
-    <li *ngFor="let u of users">
-        <strong>{{ u.name }}</strong> - {{ u.address }} - {{ u.phone }}
-        <button (click)="editUser(u)">Editar</button>
-        <button (click)="confirmDelete(u)">Eliminar</button>
-    </li>
-  </ul>
-</div>
+<ul class="user-list">
+  <li *ngFor="let u of users" class="user-item-vertical">
+    <div class="user-info">
+      <strong>{{ u.name }}</strong> - {{ u.address }} - {{ u.phone }}
+    </div>
+    <div class="button-group">
+      <button (click)="editUser(u)">Editar</button>
+      <button (click)="confirmDelete(u)">Eliminar</button>
+    </div>
+  </li>
+</ul>
+
+

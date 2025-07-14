@@ -1,5 +1,5 @@
 .fondo {
-  background-color: #f0f4f8; /* azul grisáceo claro */
+  background-color: #bbc9d8; /* azul grisáceo claro */
   padding: 20px;
   border-radius: 8px;
   max-width: 400px;
@@ -32,3 +32,33 @@ button {
   padding: 8px 16px;
 }
 
+.user-item-vertical {
+  background-color: #f3f3f3;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-info {
+  margin-bottom: 6px;
+}
+
+/* Botones más pequeños */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 4px 8px;       /* menos padding para hacerlos más pequeños */
+  font-size: 0.85rem;     /* tamaño de letra más pequeño */
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #e0e0e0;
+}
