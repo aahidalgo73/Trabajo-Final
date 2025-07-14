@@ -1,0 +1,34 @@
+.fondo {
+  background-color: #f0f4f8; /* azul grisáceo claro */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.form-field label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+}
+
